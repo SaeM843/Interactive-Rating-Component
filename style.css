@@ -25,3 +25,9 @@
     font-family: "Overpass", sans-serif;
     font-size: 0.938rem;
   }
+
+  main {
+    width: 25rem;
+    background-color: var(--dark-blue);
+    border-radius: 1.5rem;
+  }
