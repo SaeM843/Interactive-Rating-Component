@@ -100,3 +100,34 @@
       background-color: white;
       color: var(--orange);
     }
+
+    /* thank you section */
+    .thanks-state {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .thanks-state > img {
+      padding: 1.8rem;
+    }
+
+    .thanks-state > p {
+      color: var(--orange);
+      background-color: var(--circle);
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+    }
+
+    .thank-you-text-area {
+      text-align: center;
+    }
+
+    .thank-you-text-area > h2 {
+      padding: 1.5rem;
+    }
+
+    .thank-you-text-area > p {
+      color: var(--light-grey);
+    }
