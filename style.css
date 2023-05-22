@@ -100,7 +100,7 @@
       background-color: white;
       color: var(--orange);
     }
-
+    
     /* thank you section */
     .thanks-state {
       display: flex;
@@ -108,7 +108,10 @@
       align-items: center;
       flex-direction: column;
     }
-
+    
+    .hidden {
+      display: none;
+    }
     .thanks-state > img {
       padding: 1.8rem;
     }
