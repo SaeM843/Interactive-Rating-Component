@@ -30,4 +30,12 @@
     width: 25rem;
     background-color: var(--dark-blue);
     border-radius: 1.5rem;
+    padding: 2rem;
+  }
+
+  .rating-state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
