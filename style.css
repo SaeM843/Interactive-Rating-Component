@@ -84,3 +84,19 @@
     .score-form input:checked+label {
       background-color: var(--orange);
     }
+
+    .btn {
+      border: none;
+      color: white;
+      width: 100%;
+      padding: 0.8rem;
+      background-color: var(--orange);
+      border-radius: 1.5rem;
+      letter-spacing: 0.2rem;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: white;
+      color: var(--orange);
+    }
