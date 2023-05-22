@@ -35,5 +35,11 @@
   }
 
   .star {
-    background-color: var(--very-dark-blue);
+    background-color: var(--star-circle);
+    padding: 0.9rem;
+    border-radius: 50%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
