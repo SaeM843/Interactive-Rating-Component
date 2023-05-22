@@ -7,7 +7,7 @@
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
     --orange: hsl(25, 97%, 53%);
-    --star-circle: hsl(213deg, 20%, 22%);
+    --circle: hsl(213deg, 20%, 22%);
   }
 
   * {
@@ -35,7 +35,7 @@
   }
 
   .star {
-    background-color: var(--star-circle);
+    background-color: var(--circle);
     padding: 0.9rem;
     border-radius: 50%;
     width: fit-content;
@@ -53,4 +53,34 @@
     font-size: 14px;
     color: var(--light-grey);
   }
-  
+
+  input[type=radio] {
+    display: none; /* ラジオボタンを非表示 */
+    }
+
+    .score-form {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+  .rating-circle {
+      cursor: pointer;
+      color: var(--light-grey);
+      background-color: var(--circle);
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1.5rem 0;
+    }
+
+    .rating-circle:hover {
+      background-color: var(--medium-grey);
+    }
+
+    .score-form input:checked+label {
+      background-color: var(--orange);
+    }
