@@ -48,3 +48,9 @@
   .text-area > h2 {
     margin: 1rem 0;
   }
+
+  .text-area > p {
+    font-size: 14px;
+    color: var(--light-grey);
+  }
+  
