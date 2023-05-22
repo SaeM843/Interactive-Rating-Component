@@ -42,4 +42,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .text-area > h2 {
+    margin: 1rem 0;
   }
