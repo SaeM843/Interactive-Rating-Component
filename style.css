@@ -103,10 +103,7 @@
     
     /* thank you section */
     .thanks-state {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+      text-align: center;
     }
     
     .thanks-state > img {
@@ -122,6 +119,7 @@
       background-color: var(--circle);
       padding: 0.5rem 1rem;
       border-radius: 1rem;
+      text-align: center;
     }
 
     .thank-you-text-area {
