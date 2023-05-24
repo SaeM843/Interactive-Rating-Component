@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
   }
-
+  
   body {
     background-color: black;
     color: white;
@@ -33,7 +33,7 @@
     border-radius: 1.5rem;
     padding: 2rem;
   }
-
+  
   .star {
     background-color: var(--circle);
     padding: 0.9rem;
@@ -63,8 +63,8 @@
       justify-content: space-between;
       gap: 1rem;
     }
-
-  .rating-circle {
+    
+    .rating-circle {
       cursor: pointer;
       color: var(--light-grey);
       background-color: var(--circle);
@@ -76,15 +76,15 @@
       align-items: center;
       margin: 1.5rem 0;
     }
-
+    
     .rating-circle:hover {
       background-color: var(--medium-grey);
     }
-
+    
     .score-form input:checked+label {
       background-color: var(--orange);
     }
-
+    
     .btn {
       border: none;
       color: white;
@@ -95,7 +95,7 @@
       letter-spacing: 0.2rem;
       cursor: pointer;
     }
-
+    
     .btn:hover {
       background-color: white;
       color: var(--orange);
@@ -109,13 +109,14 @@
       flex-direction: column;
     }
     
-    .hidden {
-      display: none;
-    }
     .thanks-state > img {
       padding: 1.8rem;
     }
-
+    
+    .hidden {
+      display: none;
+    }
+    
     .thanks-state > p {
       color: var(--orange);
       background-color: var(--circle);
